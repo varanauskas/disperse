@@ -1,0 +1,9 @@
+node_modules
+artifacts
+docs/bundle.js.map
+.vscode
+.ipynb_checkpoints
+.idea
+artwork
+build
+.hypothesis
