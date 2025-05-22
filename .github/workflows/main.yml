@@ -39,7 +39,7 @@ jobs:
         with:
           node-version: lts/*
           cache: 'pnpm'
-          cache-dependency-path: './wagmi-disperse/pnpm-lock.json'
+          cache-dependency-path: './wagmi-disperse/pnpm-lock.yaml'
       - name: Install dependencies
         working-directory: './wagmi-disperse'
         run: npm ci
