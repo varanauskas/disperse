@@ -34,7 +34,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
-          cache: 'npm'
+          cache: 'pnpm'
           cache-dependency-path: './wagmi-disperse/pnpm-lock.json'
       - name: Install dependencies
         working-directory: './wagmi-disperse'
