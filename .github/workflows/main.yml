@@ -42,10 +42,10 @@ jobs:
           cache-dependency-path: './wagmi-disperse/pnpm-lock.yaml'
       - name: Install dependencies
         working-directory: './wagmi-disperse'
-        run: npm ci
+        run: pnpm install --frozen-lockfile
       - name: Build
         working-directory: './wagmi-disperse'
-        run: npm run build
+        run: pnpm run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
